@@ -26,6 +26,7 @@ Bundle 'gmarik/vundle'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/nerdtree'
 Bundle 'brookhong/cscope.vim'
+Bundle 'hallison/vim-markdown'
 
 " -- tagbar
 let g:tagbar_width = 25
