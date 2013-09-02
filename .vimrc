@@ -47,7 +47,7 @@ syntax on			"enable syntax highlighting
 set hlsearch			"highlight search patten
 set cursorline			"highlight current line
 set showcmd			"show command
-set mouse=a			"enable mouse mode
+"set mouse=a			"enable mouse mode
 
 "bash like keys
 cnoremap <C-A>	<Home>
