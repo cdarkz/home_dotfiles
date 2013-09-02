@@ -1,0 +1,10 @@
+[user]
+	name = Casper Chen
+	email = cdarkz@yahoo.com.tw
+[color]
+	ui = true
+[core]
+	editor = vim
+[gui]
+	diffcontext = 5
+	editor = gedit
