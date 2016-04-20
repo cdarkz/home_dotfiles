@@ -1,2 +1,2 @@
 #!/bin/sh
-grep --color=auto -n -r $1 *
+grep --color=auto -n -r "$@" *
