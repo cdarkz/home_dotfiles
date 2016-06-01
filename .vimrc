@@ -16,17 +16,18 @@ if !filereadable(vundle_readme)
 endif
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 "let Vundle manage Vundle
 "required!
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 "my bundles
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/nerdtree'
-Bundle 'brookhong/cscope.vim'
-Bundle 'hallison/vim-markdown'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdtree'
+"Plugin 'brookhong/cscope.vim'
+"Plugin 'hallison/vim-markdown'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " -- tagbar
 let g:tagbar_width = 25
@@ -37,6 +38,12 @@ let NERDTreeWinPos = "left"
 let NERDTreeMinimalUI = 1
 let NERDTreeWinSize = 20
 nmap <F9>	<ESC>:NERDTreeToggle<RETURN>
+
+" -- ctrlp.vim
+let g:ctrlp_max_files = 100000
+
+" All of your Plugins must be added before the following line
+call vundle#end()
 "
 "------ End Vundle ------
 
