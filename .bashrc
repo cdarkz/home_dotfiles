@@ -87,8 +87,16 @@ fi
 
 # some more ls aliases
 alias ll='ls -alF'
+alias llh='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
+alias llrt='ls -alFrt'
+
+# diff aliases
+alias diff='colordiff -u'
+
+# rsync aliases
+alias rsync='rsync --progress'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
