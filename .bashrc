@@ -74,7 +74,7 @@ xterm*|rxvt*)
 esac
 
 # log history to file
-export PROMPT_COMMAND='echo "$(date "+%Y-%m-%d.%H:%M:%S")\t$(pwd)\t$(history 1)" >> ~/Documents/Dropbox/bash_logs/bash-history-$(date "+%Y-%m").log'
+export PROMPT_COMMAND='echo "$(date "+%Y-%m-%d.%H:%M:%S")'$'\t"$(pwd)'$'\t"$(history 1)" >> ~/Documents/Dropbox/bash_logs/bash-history-$(date "+%Y-%m").log'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
