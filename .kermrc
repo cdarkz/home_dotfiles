@@ -1,13 +1,14 @@
-set line /dev/ttyS0		;connect interface
-set speed 115200		;baudrate
-set carrier-watch off
-set handshake none
-set flow-control none		;8-n-1
-set terminal bytesize 8
-set stop-bit 1
-set parity none
+SET LINE /dev/ttyS0		;connect interface
+SET SPEED 115200		;baudrate
+;8-n-1
+SET carrier-watch off
+SET handshake none
+SET flow-control none
+SET terminal bytesize 8
+SET stop-bit 1
+SET parity none
 ;set file char utf8
 ;set file type text
 ;log file and name it by day
-set session-log text
-log session ~/kermit_log/\v(ndate).txt append
+SET session-log text
+LOG session ~/kermit_log/\v(ndate).txt append
