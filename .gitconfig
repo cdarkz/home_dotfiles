@@ -5,6 +5,7 @@
 	ui = true
 [core]
 	editor = vim
+	deltaBaseCacheLimit = 1G
 [gui]
 	diffcontext = 5
 	editor = gedit
