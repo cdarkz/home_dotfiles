@@ -1,10 +1,12 @@
 SET LINE /dev/ttyS0		;connect interface
+IF fail STOP 1 Device not available
 SET SPEED 115200		;baudrate
 ;8-n-1
 SET carrier-watch off
 SET handshake none
 SET flow-control none
 SET terminal bytesize 8
+SET terminal character-set utf8
 SET stop-bit 1
 SET parity none
 ;set file char utf8
