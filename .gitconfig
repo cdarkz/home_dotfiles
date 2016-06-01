@@ -11,3 +11,5 @@
 	editor = gedit
 [tig]
 	diff-context = 5
+[push]
+	default = simple
