@@ -13,8 +13,10 @@ File Name    | Description
 .kermrc      | kermit configuration
 .ssh/config  | SSH configuration
 .vimrc       | VIM configuration
-bin/grepr    | Alias of grep
-bin/greprw   | Alias of grep (search entire word)
+bin/change-wallpaper.py | Python script to change wallpaper everyday
+bin/findn    | Alias of "find" by file name
+bin/grepr    | Alias of "grep"
+bin/greprw   | Alias of "grep" (search entire word)
 
 ## Installation
 
