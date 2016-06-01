@@ -11,6 +11,7 @@ File Name    | Description
 .bashrc      | Bash configuration
 .gitconfig   | Git configuration
 .kermrc      | kermit configuration
+.profile     | the command interpreter for login shells
 .ssh/config  | SSH configuration
 .vimrc       | VIM configuration
 bin/change-wallpaper.py | Python script to change wallpaper everyday
