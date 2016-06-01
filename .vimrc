@@ -75,5 +75,8 @@ set statusline=%m[%l/%L,%p%%,%v]\ File:\ %<%f\%r%h%w\ [%{&ff},%{&fileencoding},%
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+"set buffer to last 100 files, 1000 lines, or 100Kb to be remembered
+set viminfo='100,<1000,s100
 "
 "------ End General ------
