@@ -9,3 +9,5 @@
 [gui]
 	diffcontext = 5
 	editor = gedit
+[tig]
+	diff-context = 5
