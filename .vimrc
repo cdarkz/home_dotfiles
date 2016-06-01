@@ -49,7 +49,7 @@ call vundle#end()
 
 "------ General ------
 "
-filetype plugin indent on	"enable filetype-specific plugins
+"filetype plugin indent on	"enable filetype-specific plugins
 filetype plugin on		"enable loading the plugin files for specific file types
 syntax on			"enable syntax highlighting
 set hlsearch			"highlight search patten
