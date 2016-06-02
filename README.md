@@ -14,6 +14,7 @@ File Name    | Description
 .profile     | the command interpreter for login shells
 .ssh/config  | SSH configuration
 .vimrc       | VIM configuration
+bin/backup_mail.sh | Shell script to backup thunderbird mail folder
 bin/change-wallpaper.py | Python script to change wallpaper everyday
 bin/findn    | Alias of "find" by file name
 bin/grepr    | Alias of "grep"
