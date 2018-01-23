@@ -23,6 +23,6 @@ fi
 
 # change wallpaper
 if [ -n "$XDG_CURRENT_DESKTOP" ] ; then
-    change-wallpaper.py ~/Pictures/Wallpapers
+    /usr/bin/python ~/bin/change-wallpaper.py ~/Pictures/Wallpapers 2>&1 > /dev/null
     sshfs cdarkz@192.168.1.254:/home/cdarkz /mnt/Desktop_server -o reconnect
 fi
