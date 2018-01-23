@@ -1,4 +1,4 @@
-SET LINE /dev/ttyS0		;connect interface
+SET LINE /dev/ttyUSB0		;connect interface
 IF fail STOP 1 Device not available
 SET SPEED 115200		;baudrate
 ;8-n-1
@@ -13,4 +13,4 @@ SET parity none
 ;set file type text
 ;log file and name it by day
 SET session-log text
-LOG session ~/kermit_log/\v(ndate).txt append
+LOG session ~/kermit_log/\v(ndate)_usb.txt append
